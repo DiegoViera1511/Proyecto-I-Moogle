@@ -1,0 +1,48 @@
+.results {
+    text-align: left;
+    color: white ;
+    list-style-position: inside;
+}
+.item{
+    border: 2px;
+}
+
+input{
+    border-radius: 15px;
+    width: 400px;
+}
+
+p.sugerencia{
+    font-size: 20px;
+}
+
+
+.item .title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+a.Title_of_Doc{
+    color: rgb(188, 188, 188);
+}
+
+.item .snippet{
+    font-size: 18px;
+    font-weight: 5px;
+    color: white;
+}
+
+.MoogleLogo{
+    color: white;
+    font-size: 80px;
+}
+
+p.sugerencia{
+    color: white;
+}
+
+
+
+
