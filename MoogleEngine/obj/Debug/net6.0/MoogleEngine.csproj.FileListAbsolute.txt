@@ -1,0 +1,36 @@
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.deps.json
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.AssemblyReference.cache
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfoInputs.cache
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfo.cs
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.CoreCompileInputs.cache
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/refint/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/WorkSpace/moogle-main/MoogleEngine/obj/Debug/net6.0/ref/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.deps.json
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.AssemblyReference.cache
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfoInputs.cache
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfo.cs
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.CoreCompileInputs.cache
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/refint/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/moogle-main/MoogleEngine/obj/Debug/net6.0/ref/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.deps.json
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/bin/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.AssemblyReference.cache
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfoInputs.cache
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.AssemblyInfo.cs
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.csproj.CoreCompileInputs.cache
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/refint/MoogleEngine.dll
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/MoogleEngine.pdb
+/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/obj/Debug/net6.0/ref/MoogleEngine.dll
