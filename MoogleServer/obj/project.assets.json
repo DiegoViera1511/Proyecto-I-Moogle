@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/MoogleServer.csproj",
+      "projectUniqueName": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/MoogleServer.csproj",
       "projectName": "MoogleServer",
-      "projectPath": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/MoogleServer.csproj",
+      "projectPath": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/MoogleServer.csproj",
       "packagesPath": "/Users/diegovieramartinez/.nuget/packages/",
-      "outputPath": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/",
+      "outputPath": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/diegovieramartinez/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/MoogleEngine.csproj": {
-              "projectPath": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleEngine/MoogleEngine.csproj"
+            "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleEngine/MoogleEngine.csproj": {
+              "projectPath": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleEngine/MoogleEngine.csproj"
             }
           }
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "29PlECPFCDJaA3Fim/lV376QdZZ3My6jK+fvbwUDBA0=",
+  "Hash": "icBre9HRswJXprvH6fGyFoS48Qdtm7KPBfdFeOpfupc=",
   "Source": "MoogleServer",
   "BasePath": "_content/MoogleServer",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MoogleServer/wwwroot",
       "Source": "MoogleServer",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/MoogleServer.styles.css",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/MoogleServer.styles.css",
       "SourceId": "MoogleServer",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "MoogleServer.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/MoogleServer.styles.css"
+      "OriginalItemSpec": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/bundle/MoogleServer.styles.css"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/MoogleServer.bundle.scp.css",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/MoogleServer.bundle.scp.css",
       "SourceId": "MoogleServer",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "MoogleServer.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/MoogleServer.bundle.scp.css"
+      "OriginalItemSpec": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/obj/Debug/net6.0/scopedcss/projectbundle/MoogleServer.bundle.scp.css"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/.DS_Store",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/.DS_Store",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/.DS_Store",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/.DS_Store",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/.DS_Store",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/css/.DS_Store"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/DEB53422-97A9-43BA-8B63-164CF692888C.PNG",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/DEB53422-97A9-43BA-8B63-164CF692888C.PNG",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/DEB53422-97A9-43BA-8B63-164CF692888C.PNG",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/css/DEB53422-97A9-43BA-8B63-164CF692888C.PNG"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/open-iconic/README.md",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/open-iconic/README.md",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/css/site.css",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/css/site.css",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/favicon.ico",
+      "Identity": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/favicon.ico",
       "SourceId": "MoogleServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/diegovieramartinez/Desktop/Moogle Proyect/moogle-main/MoogleServer/wwwroot/",
+      "ContentRoot": "/Users/diegovieramartinez/Desktop/WorkSpace/Moogle Proyect/MoogleServer/wwwroot/",
       "BasePath": "_content/MoogleServer",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
