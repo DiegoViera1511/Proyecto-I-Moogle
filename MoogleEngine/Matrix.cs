@@ -82,5 +82,61 @@ namespace MoogleEngine
             }
             return result ;
         }
+
+        public static double Determinante(double[,] A)
+        {
+            if(A.GetLength(0) != A.GetLength(1))
+            {
+                throw new Exception("La matriz debe ser cuadrada");
+            }
+            return Determinante2(A , A.GetLength(0));    
+        }
+        private static double Determinante2(double[,] A , int N)
+        {
+            double det = 0 ;
+            if(N == 2)
+            {
+                return A[0,0] * A[1,1] - (A[1,0] * A[0,1]);
+            }
+           
+            for(int i = 0 ; i < A.GetLength(0) ; i++)
+            {
+                det += A[0,i] * Math.Pow(-1 , i) * Determinante(Menor(A , 0 , i));
+            }
+            return det;
+        }
+
+        static double[,] Menor(double[,] A , int i , int j) //A tiene que ser cuadrada 
+        {
+           int rg = A.GetLength(0); 
+           List<double> values = new List<double>();
+
+            for(int a = 0 ; a < A.GetLength(0) ; a++)
+            {
+                if(a == i)
+                {
+                    continue;
+                }
+                for(int b = 0 ; b < A.GetLength(1) ; b++)
+                {
+                    if(b == j)
+                    {
+                        continue;
+                    }
+                    values.Add(A[a,b]);
+                }
+            }
+            double[,] result = new double[rg -1 , rg - 1];
+            int count = 0;
+            for(int c = 0 ; c < rg - 1 ; c++)
+            {
+                for(int d = 0 ; d < rg -1 ; d++)
+                {
+                    result[c,d] = values[count];
+                    count++;
+                }
+            }
+            return result;
+        }
     }  
 }
