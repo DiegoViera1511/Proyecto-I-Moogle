@@ -248,7 +248,7 @@ namespace MoogleEngine
         }
     }
 
-     public class Operators
+    public class Operators
     {
         public static List<string> DontShowWord(string query)
         {
