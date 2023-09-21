@@ -314,7 +314,63 @@ namespace MoogleEngine
                 }
             }
         }
-        
+
+        public static double ClosedWords(string query , int indexOfText)
+        {
+            query = Regex.Replace(query ,@"[^\sa-zA-Z0-9áéíóúüÁÉÍÓÚÜöÖñÑ~]", " " );
+            List<Match> matches = Regex.Matches(query , @"\w+|~").ToList();
+            List<string> words = new List<string>();
+            Dictionary<string , List< int >> WordIndexs = new Dictionary<string, List< int >>();
+            foreach(Match m in matches)
+            {
+                words.Add(m.Value);
+            }
+
+            if( !words.Contains("~") ) return 0 ;
+            
+            Dictionary<string , int > WordsPositions = new Dictionary<string , int>();
+
+            for(int i = 0 ; i < words.Count ; i++)
+            {
+                if(Regex.IsMatch(words[i] , @"\w+"))
+                {
+                    WordIndexs.Add(words[i] , new List<int>());
+                    for(int j = 0 ; j < Tools.Text_Words[indexOfText].Count ; j++)
+                    {
+                        if(Tools.Text_Words[indexOfText][j] == words[i])
+                        {   
+                            WordIndexs[words[i]].Add(j);
+                        }   
+                    }
+                }
+            }
+            int minDistance = int.MaxValue;
+            for(int i = 0 ; i < words.Count ; i++)
+            {
+                if(words[i] == "~")
+                {
+                    if( i - 1 >= 0 && WordIndexs.ContainsKey(words[i-1]))
+                    {
+                        if(i+1 < words.Count && WordIndexs.ContainsKey(words[i+1]))
+                        {
+                            foreach(int a in WordIndexs[words[i-1]])
+                            {
+                                foreach(int b in WordIndexs[words[i+1]])
+                                {
+                                    int tempMinDistance = Math.Abs(a - b);
+
+                                    if(tempMinDistance < minDistance )
+                                    {
+                                        minDistance = tempMinDistance ;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return Math.Log10(int.MaxValue - minDistance) ;
+        }
     }
     
     public static class TFxIDF
@@ -382,14 +438,15 @@ namespace MoogleEngine
             }else return 0; //Evitar que tenga valor NaN   
         }
         
-        public List<(string , string , float , int)> ScoreTop(string query){//Retorna lista de documentos con score      
+        public List<(string , string , float , int)> ScoreTop(string query)
+        {//Retorna lista de documentos con score      
             List<(string , string , float , int)> ScoreTxT = new List<(string , string , float , int)>();
             Dictionary<string,double> queryTfIdf = TFxIDF.Calcular_Tf_Idf_query(query);
             for(int i = 0 ; i < Tools.textos.Count ; i++)
             {
                 float score = (float)Calcular_Similitud_Coseno(queryTfIdf , TFxIDF.DiccionarioDeCadaDocumento[i]);
 
-                 List<string> NoWords = Operators.DontShowWord(query);// Operador !
+                List<string> NoWords = Operators.DontShowWord(query);// Operador !
                 foreach(string s in NoWords)
                 {
                     if(TFxIDF.DiccionarioDeCadaDocumento[i].ContainsKey(s))//Si la palabra está el socre es 0
@@ -406,6 +463,9 @@ namespace MoogleEngine
                         score = 0;
                     }
                 }
+
+                //Operador ~
+                score += (float)Operators.ClosedWords(query , i);
                 
                 if(score != 0){
                     ScoreTxT.Add((Tools.FilesNames[i] , " En Desarrollo (snipet) " , score , i));//Guardo i para representar mi doc a la hora de calcular el snippet    
@@ -417,7 +477,7 @@ namespace MoogleEngine
                 for(int i = ScoreTxT.Count-1 ; i > 0 ; i--){
                     (string , string , float , int) x ;//Variable temporal
                     if(ScoreTxT[i-1].Item3 <  ScoreTxT[i].Item3){
-                        x = (ScoreTxT[i-1]);
+                        x = ScoreTxT[i-1];
                         ScoreTxT[i-1] = ScoreTxT[i];
                         ScoreTxT[i] = x;
                     }
