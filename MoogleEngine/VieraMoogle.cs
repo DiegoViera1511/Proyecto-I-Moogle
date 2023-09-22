@@ -344,7 +344,7 @@ namespace MoogleEngine
                     }
                 }
             }
-            int minDistance = int.MaxValue;
+            double minDistance = int.MaxValue;
             for(int i = 0 ; i < words.Count ; i++)
             {
                 if(words[i] == "~")
@@ -357,7 +357,7 @@ namespace MoogleEngine
                             {
                                 foreach(int b in WordIndexs[words[i+1]])
                                 {
-                                    int tempMinDistance = Math.Abs(a - b);
+                                    double tempMinDistance = Math.Abs(a - b);
 
                                     if(tempMinDistance < minDistance )
                                     {
@@ -369,7 +369,7 @@ namespace MoogleEngine
                     }
                 }
             }
-            return 10/minDistance ;
+            return 10d/minDistance ;
         }
     }
     
