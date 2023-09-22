@@ -369,7 +369,7 @@ namespace MoogleEngine
                     }
                 }
             }
-            return Math.Log10(int.MaxValue - minDistance) ;
+            return 10/minDistance ;
         }
     }
     
